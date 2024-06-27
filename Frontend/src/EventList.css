@@ -1,0 +1,111 @@
+/* Container do Formulário de Evento */
+.event-form-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Título do Formulário */
+  .event-form-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 2em;
+  }
+  
+  /* Estilo do Formulário */
+  .event-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Inputs e Botões do Formulário */
+  .event-form-container form input,
+  .event-form-container form button,
+  .event-form-container form textarea {
+    margin-bottom: 15px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  /* Textarea com ajuste vertical */
+  .event-form-container form textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  /* Botão do Formulário */
+  .event-form-container form button {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover do Botão do Formulário */
+  .event-form-container form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Lista de Eventos */
+  .event-list {
+    margin-top: 30px;
+  }
+  
+  /* Itens da Lista de Eventos */
+  .event-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Título do Evento */
+  .event-item h3 {
+    margin: 0 0 10px;
+    color: #333;
+  }
+  
+  /* Detalhes do Evento */
+  .event-item p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  /* Botões dos Itens de Evento */
+  .event-item button {
+    margin-left: 10px;
+    padding: 8px 15px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover dos Botões dos Itens de Evento */
+  .event-item button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Botão Editar */
+  .event-item button.edit {
+    background-color: #3498db;
+  }
+  
+  .event-item button.edit:hover {
+    background-color: #2980b9;
+  }
+  
